@@ -1,0 +1,45 @@
+{
+    "questions":[
+        {
+          "question": "Who won Fifa Worldcup 2022?",
+          "options": ["Spain", "Brazil", "Argentina", "Germany"],
+          "correctAnswer": "Argentina"
+        },
+        {
+          "question": "What Netflix series had the most streaming views in 2021?",
+          "options": ["La Casa De Papel", "Squid Game", "My Name", "Lupin"],
+          "correctAnswer": "Squid Game"
+        },
+        {
+          "question": "Who is the World’s highest-paid athlete in 2022?",
+          "options": ["Conor McGregor", "Cristiano Ronaldo", "LeBron James", "Lionel Messi"],
+          "correctAnswer": "Lionel Messi"
+        },
+        {
+          "question": "Who won Miss World 2018?",
+          "options": ["Minerva Luna", "Karolina Bielawska", "Vanessa Ponce", "Diana Romero"],
+          "correctAnswer": "Vanessa Ponce"
+        },
+        {
+          "question": "Which is the largest animal in the world?",
+          "options": ["Blue Whale", "Elephant", "Giraffe", "Polar bear"],
+          "correctAnswer": "Blue Whale"
+        },
+        {
+          "question": "Where is the strongest human muscle located?",
+          "options": ["Chest", "Jaw", "Thigh", "Shoulder"],
+          "correctAnswer": "Jaw"
+        },
+        {
+          "question": "Which is the tallest mountain in the world?",
+          "options": ["Mount Everest", "Mount Cho Oyu", "Mount Makalu", "Mount Lhotse"],
+          "correctAnswer": "Mount Everest"
+        },
+        {
+          "question": "What is a country with no police and no prison?",
+          "options": ["Poland", "Nepal", "Denmark", "Iceland"],
+          "correctAnswer": "Iceland"
+        }
+      ]
+      
+}

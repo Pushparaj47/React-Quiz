@@ -1,0 +1,133 @@
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 95vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lavender;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: lavenderblush;
+  box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;  
+  position: relative;
+  top: 15px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: salmon;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background-color: lightsalmon;
+}
+
+.btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.score {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.navigation-buttons {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.question-count {
+  text-decoration: underline;
+}
+
+.question-container {
+  margin-top: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+  width: 500px;
+  text-align: left;
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.option {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+ }
+
+label {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-message {
+  color: rgb(200, 0, 0);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: gray;
+}
+
